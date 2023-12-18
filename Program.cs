@@ -23,5 +23,7 @@ class Program
             szamok.ForEach(e => {Console.Write($"{e}, ");});
             Console.WriteLine();
         }
+
+        Console.WriteLine($"Legkissebb érték: {szamok.Min()}");
     }
 }
