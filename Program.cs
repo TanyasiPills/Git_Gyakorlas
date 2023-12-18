@@ -24,6 +24,6 @@ class Program
             Console.WriteLine();
         }
 
-        Console.WriteLine($"Legkissebb érték: {szamok.Min()}");
+        Console.WriteLine($"Legkissebb érték: {szamok.Max()}");
     }
 }
